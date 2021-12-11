@@ -6,7 +6,7 @@
 #    By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 09:41:48 by dhubleur          #+#    #+#              #
-#    Updated: 2021/12/10 20:56:22 by dhubleur         ###   ########.fr        #
+#    Updated: 2021/12/11 09:44:28 by dhubleur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ SRCS 			=	ft_printf.c \
 					put_functions/put_strs.c \
 
 OBJS		=	${SRCS:.c=.o}
-INCL		=	./includes 
+INCL		=	./.
 
 NAME		=	libftprintf.a
 

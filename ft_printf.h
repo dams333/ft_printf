@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 10:10:42 by dhubleur          #+#    #+#             */
-/*   Updated: 2021/12/10 20:56:43 by dhubleur         ###   ########.fr       */
+/*   Updated: 2021/12/11 09:44:37 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,5 @@ int		printf_putunbr_fd(unsigned int n, int fd);
 void	printf_putchar_fd(char c, int fd);
 void	printf_putstr_fd(char *s, int fd);
 size_t	printf_strlen(const char *s);
-
 
 #endif
