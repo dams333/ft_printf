@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 10:46:37 by dhubleur          #+#    #+#             */
-/*   Updated: 2021/12/12 12:44:30 by dhubleur         ###   ########.fr       */
+/*   Updated: 2021/12/12 12:50:24 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ void	print_percent(int *printed, int *i)
 	*i = *i + 1;
 }
 
-int	printf_printf(const char *str, ...)
+int	ft_printf(const char *str, ...)
 {
 	va_list	ap;
 	int		i;
