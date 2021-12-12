@@ -6,7 +6,7 @@
 #    By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/25 09:41:48 by dhubleur          #+#    #+#              #
-#    Updated: 2021/12/11 09:44:28 by dhubleur         ###   ########.fr        #
+#    Updated: 2021/12/12 12:53:59 by dhubleur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,6 +22,7 @@ SRCS 			=	ft_printf.c \
 					conversions/convert.c \
 					put_functions/put_nbr.c \
 					put_functions/put_strs.c \
+					flags/flags_util.c
 
 OBJS		=	${SRCS:.c=.o}
 INCL		=	./.
