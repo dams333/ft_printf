@@ -6,7 +6,7 @@
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:23:20 by dhubleur          #+#    #+#             */
-/*   Updated: 2021/12/02 16:26:00 by dhubleur         ###   ########.fr       */
+/*   Updated: 2021/12/12 12:43:49 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,23 +33,23 @@ int	print_conversion(char conv, t_flags flags, va_list *ap)
 	return (0);
 }
 
-t_bool	is_conversion(char c)
+int	is_conversion(char c)
 {
 	if (c == 'c')
-		return (TRUE);
+		return (1);
 	if (c == 's')
-		return (TRUE);
+		return (1);
 	if (c == 'p')
-		return (TRUE);
+		return (1);
 	if (c == 'd')
-		return (TRUE);
+		return (1);
 	if (c == 'i')
-		return (TRUE);
+		return (1);
 	if (c == 'u')
-		return (TRUE);
+		return (1);
 	if (c == 'x')
-		return (TRUE);
+		return (1);
 	if (c == 'X')
-		return (TRUE);
-	return (FALSE);
+		return (1);
+	return (0);
 }

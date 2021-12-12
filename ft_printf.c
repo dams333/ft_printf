@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   printf_printf_bonus.c                                  :+:      :+:    :+:   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dhubleur <dhubleur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 10:46:37 by dhubleur          #+#    #+#             */
-/*   Updated: 2021/12/05 16:36:11 by dhubleur         ###   ########.fr       */
+/*   Updated: 2021/12/12 12:44:30 by dhubleur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@ t_flags	init_flags(void)
 {
 	t_flags	flags;
 
-	flags.alternate = FALSE;
-	flags.space = FALSE;
-	flags.plus = FALSE;
+	flags.alternate = 0;
+	flags.space = 0;
+	flags.plus = 0;
 	return (flags);
 }
 
